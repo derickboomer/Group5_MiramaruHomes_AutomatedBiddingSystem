@@ -1,0 +1,336 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header{
+    background: #ffffff;
+    width:100%;
+    display: flex;
+    text-align:center;
+    margin: auto;
+    position:relative;
+    
+}
+
+nav li{
+    
+   padding-top: 29px;
+    background: #ffffff;
+    list-style: none;
+    display: inline-flex;
+    font-style: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#icon{
+    margin-left: 62%;
+    background: none;
+    border: none;
+    color: #8e5431;
+    
+}
+ 
+a{
+    color: #8e5431;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+
+}
+
+/*HEADER*/
+
+/*FOOTER*/
+footer div{
+    display: flex;
+    text-align:center;
+    padding: 0;
+    margin: auto;
+    position:relative;
+
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background-color:white;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.socialmedia{
+    
+    text-align: left;
+    display: block;
+}
+ 
+ .socmed{
+     background: none;
+     border: none;
+ }
+
+ .contact{
+     text-align: left;
+     display: inline-block;
+     left: 200px;
+ }
+/*FOOTER*/
+
+body{
+    background: #c98860;
+    
+}
+/*My Account*/
+
+
+.box{
+    
+    margin: 10px;
+    position:relative;
+    width: 300px;
+    height: 100%;
+    background-color:#f3e3d3;
+    
+}
+
+.buttonheader{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+    background: none;
+    border: none;
+    
+}
+
+.account{ 
+    height:375px;
+    padding-bottom: 100%;
+    background-color:#f3e3d3;
+   
+   
+}
+
+.buttontext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    text-align: left ;
+    width: 100% ;
+    font-size: 20px;
+    display: block;
+    background: none;
+    border: none;
+
+}
+
+.buttontext:hover{
+    border-left: solid 3px #9b6b43;
+    background-color: #c98860;
+    color: white;
+    text-shadow:1px 1px 2px rgb(37, 38, 39);
+    box-shadow: slategrey;
+    transition: background-color .5s;
+    
+}
+
+/* box 2*/
+.content{
+    display:inline-flex;
+
+}
+.content2 {
+    display: block;
+    margin-top: 10px;
+}
+.rightcolumn{
+    
+    position: relative;
+    
+    width: 1190px;
+    
+}
+
+.personalinfo{ 
+    position: relative;
+    background-color:#f3e3d3;
+    height: 250px;
+    padding:5px;
+    
+}
+
+.buttoninfo{
+    
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px;
+    background-color: #8e5431;
+    width: 100%;
+    border: none;
+    
+}
+
+
+.labels{
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    
+}
+.details{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 3px;
+}
+
+.edit{
+    width: 50px;
+    border: none;
+    color: white;
+    background-color: sienna;
+    position: absolute;
+    top: 220px;
+    left: 93%;
+    font-size: 15x;
+}
+
+.edit:hover{
+    background-color:white;
+    color: sienna;
+    
+}
+
+/* Billing / Shipping Address*/
+
+hr{
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(73, 73, 73);
+}
+
+.billshipadd{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+.headbillship{
+    position: relative;
+    background-color:#f3e3d3;
+    height: 416px;
+    
+}
+
+.buttonbillship{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px;
+    background-color: #8e5431;
+    width: 100%;
+    border: none;
+    
+}
+
+#details{ 
+    
+    position: absolute;
+    padding: 2rem;
+    top: 2rem;
+    width: 70.45rem;
+    
+}
+
+input{
+    margin-bottom: 1rem;
+    background: none;
+    border: 2px solid #a79c94;
+    border-radius: .25rem;
+}
+
+input#fname{
+    
+    width: 49%;
+  padding: 12px 20px;
+ box-sizing: border-box;
+  
+}
+
+input#lname{
+    
+    float: right;
+    width: 49%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input#street{
+   
+    width: 100%;
+  padding: 12px 20px;
+ box-sizing: border-box;
+}
+
+input#zip{
+    
+    width: 49%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input#city{
+    
+    float: right;
+    width: 49%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+input#contact{
+    
+    width: 49%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#addaddress{
+    
+    width: 90px;
+    border: none;
+    color: white;
+    background-color: sienna;
+    position: absolute;
+    top: 360px;
+    left: 90%;
+    font-size: 15px;
+}
+
+#addaddress:hover{
+
+    background-color:white;
+    color: sienna;
+}
+#diffaddress{
+    left:1.5rem;
+    position: absolute;
+    top:395px;
+    background: none;
+    border:none;
+    color: #a79c94;
+}
+
+#diffaddress:hover{
+    color: black;
+    transition: color .5s;
+
+}

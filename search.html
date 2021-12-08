@@ -1,0 +1,114 @@
+<html>
+  <head>
+    
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <body style="background-color:#F1E4D1;">
+        
+      <button class="btn" style="
+      left: 10em;
+      top: 3em;">
+          <img src="assets/account.png" alt="account" style="width:20px;height:20px;" />
+            My account
+      </button>
+
+      <button class="btn" style="    right: 15em;
+      top: 3em;">
+          <img src="assets/search.png" alt="search" style="width:20px;height:20px;" />
+      </button>
+
+      <button class="btn" style="    right: 10em;
+      top: 2.8em;">
+          <img src="assets/cart.png" alt="cart" style="width:23px;height:23px;" />
+      </button>
+
+      <img src="assets/logo.png" alt="Miramaru" style="width:170px" class="center">
+      
+      <div class="center">
+          <button class="buttontxt" type="button" onclick="">home</button>
+          <button class="buttontxt" type="button" onclick="">shop</button>
+          <button class="buttontxt" type="button" onclick="">about us</button>
+          <button class="buttontxt" type="button" onclick="">collections</button>
+      </div>
+      <br><br><br><br><br><br><br><br>
+    <div class="s003">
+      <form>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <div class="input-select">
+              <select data-trigger="" name="choices-single-defaul">
+                <option placeholder="">Category</option>
+                <option>New Arrivals</option>
+                <option>Sale</option>
+                <option>Freaky Frolic</option>
+                <option>Kohaku</option>
+                <option>Levende</option>
+                <option>Koike</option>
+                <option>Oasis</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-field second-wrap">
+            <input id="search" type="text" placeholder="What are you looking for?" />
+          </div>
+          <div class="input-field third-wrap">
+            <button class="btn-search" type="button">
+              <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="js/extention/choices.js"></script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+
+        <footer>
+            <br><br><br><br><br>
+
+            <div class="row">
+                <div class="column">
+                    <p class="pfoot" style="margin-left: 2cm;">
+                        <b>How to order?</b>
+                        <br><br>
+                        1. Bid to the items to your cart.
+                        <br>
+                        2. Once, schedule your delivery.<br>
+                        3. Pay via PayPal / BDO / BPI.<br>
+                        4. Receive and enjoy.<br>
+                </div>
+                <div class="column">
+                    <p class="pfoot" style="margin-left: 2cm;width:50%">
+                        <b>Need assistance?</b>
+                        <br><br>
+                        For concerns/inquiries, call us at 
+                        09153588791 or email us at 
+                        miramaru@gmail.com.
+                </div>
+                <div class="column" style="position:relative;left:1em;bottom:2em;"><p class="pfoot" style="margin-left: 2cm;">
+                    <b><p id="signup">Sign up for latest updates!</p></b>
+                    <input type="text" id="emailadd" value="Email Address" style="color: #EBCBAA"></input>
+                    <br><br>
+                    <button id="emailbtn" style="right:1.1cm;">SUBSCRIBE!</button>
+                </div>
+            </div>
+      
+  </footer>
+
+
+===========================
+
+
+
+
+  </body>
+</html>

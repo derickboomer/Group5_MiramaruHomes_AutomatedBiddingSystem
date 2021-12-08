@@ -1,0 +1,226 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #c98860;
+}
+
+/*My Account*/
+
+.box{
+   margin: 10px;
+    position:relative;
+    width: 300px;
+    height: 100%;
+    background-color:#f3e3d3;
+    
+}
+
+.buttonheader{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+    background: none;
+    border: none;
+    
+}
+
+.account{ 
+    height:375px;
+    padding-bottom: 100%;
+    background-color:#f3e3d3;
+   
+   
+}
+
+.buttontext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+    text-align: left ;
+    width: 100% ;
+    font-size: 20px;
+    display: block;
+    background: none;
+    border: none;
+
+}
+
+.buttontext:hover{
+    border-left: solid 3px #9b6b43;
+    background-color: #c98860;
+    color: white;
+    text-shadow:1px 1px 2px rgb(37, 38, 39);
+    box-shadow: slategrey;
+    transition: background-color .2s;
+    
+}
+ /*ORder and Tracking                    */
+.ordercolumn{
+    position: absolute;
+    padding-top: 5px;
+    width: 1190px;
+    left: 310px;
+    top: 1px;
+    background-color: #8e5431;
+    
+   
+}
+
+#buttonorder{
+    background: none;
+    border: none;
+    color: White;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.row{
+    position: absolute;
+    width: 1190px;
+    height: 40rem;
+    display: flex;
+    background-color: #f3e3d3;
+    
+}
+ 
+.row div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:10px ;
+    padding-left: 40px;
+    width: calc(1190px/5);
+    
+    
+}
+
+.items{
+    position: absolute;
+    top: 80px;
+    width: 1190px;
+    
+    
+
+}
+.items div{
+    
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.items div:hover{
+    background-color: rgb(230, 228, 227);
+}
+
+.pic{
+    margin-left: 40px;
+    margin-right: 130px;
+}
+
+.details{
+    
+    text-align: center;
+   margin-right: 90px;
+   
+    padding-top: 10px;
+  
+    line-height: 25px;
+    width:150px
+    
+}
+
+.order{
+    
+    border-bottom: 2px solid rgb(206, 203, 201);
+}
+
+.status{
+    font-weight: bold;
+}
+
+/*FOOTER*/
+footer div{
+    display: flex;
+    text-align:center;
+    padding: 0;
+    margin: auto;
+    position:relative;
+
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background-color:white;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.socialmedia{
+    
+    text-align: left;
+    display: block;
+}
+ 
+ .socmed{
+     background: none;
+     border: none;
+ }
+
+ .contact{
+     text-align: left;
+     display: inline-block;
+     left: 200px;
+ }
+/*FOOTER*/
+
+/*HEADER*/
+
+header{
+    background: #ffffff;
+    width:100%;
+    display: flex;
+    text-align:center;
+    margin: auto;
+    position:relative;
+    
+}
+
+nav li{
+    
+   padding-top: 29px;
+    background: #ffffff;
+    list-style: none;
+    display: inline-flex;
+    font-style: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#icon{
+   
+    margin-left: 62%;
+    background: none;
+    border: none;
+    color: #8e5431;
+    
+}
+ 
+a{
+    color: #8e5431;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+
+}
+
+/*HEADER*/

@@ -1,0 +1,114 @@
+.center 
+{
+    display: block;
+    text-align:center;
+    margin: auto;
+    position:relative;
+}
+
+.buttontxt
+{
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: #8E542F;
+    margin-left: 6px
+}
+
+.buttontxt:hover 
+{
+    color: red;
+}
+
+#accbtn
+{
+    display: block;
+    position: absolute;
+    left: 10em;
+    top: 3em;
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: #8E542F;
+}
+
+#accbtn:hover
+{
+    background-color: white;
+}
+
+#srchbtn
+{
+    display: block;
+    position: absolute;
+    right: 15em;
+    top: 3em;
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+#srchbtn:hover
+{
+    background-color: white;
+}
+
+#cartbtn
+{
+    display: block;
+    position: absolute;
+    right: 10em;
+    top: 2.8em;
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+#cartbtn:hover
+{
+    background-color: white;
+}
+footer {
+    
+    position: absolute;
+    left:0;
+    right:0;
+    padding-bottom:5em;
+    padding-right:5em;
+    background-color: #8E542F;
+    color: white;
+    width: auto;
+ }
+
+.pfoot
+{
+    font-size: 20px;
+    color: #EBCBAA;
+}
+
+#signup
+{
+    font-size: 25px;
+    margin-top:2em;
+    margin-bottom:20px;
+    color: #EBCBAA;
+}
+
+#emailbtn
+{
+    background: none;
+    border: 3px solid #EBCBAA;
+    color: #EBCBAA;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    display: block;
+    position: absolute;
+    display: block;
+}
+
+#emailbtn:hover
+{
+    background: #A0936C;
+    color: red;
+}
